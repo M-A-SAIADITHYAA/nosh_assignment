@@ -1,0 +1,20 @@
+[
+  {
+    "dishId": "test-invalid-url",
+    "dishName": "Test Dish: Invalid URL Scheme",
+    "imageUrl": "not-a-valid-url",
+    "isPublished": false
+  },
+  {
+    "dishId": "test-ftp-url",
+    "dishName": "Test Dish: FTP Protocol URL",
+    "imageUrl": "ftp://example.com/dish.jpg",
+    "isPublished": false
+  },
+  {
+    "dishId": "test-broken-image",
+    "dishName": "Test Dish: 404 Broken Image Link",
+    "imageUrl": "https://example.com/nonexistent-dish-image-404.jpg",
+    "isPublished": false
+  }
+]
