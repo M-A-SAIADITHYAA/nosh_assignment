@@ -137,3 +137,5 @@ router.patch('/dishes/:dishId', (req: Request, res: Response) => {
     });
   }
 });
+
+// Enforce explicit published boolean status without blind toggle
